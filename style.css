@@ -1,0 +1,188 @@
+/*
+  Cindy Fu
+  July 30th
+  Section AC
+
+  This is a style.css page to style my index.html page. This page
+  has a theme color of pink and green, which is inspired by the
+  color on the dish.
+*/
+
+body {
+  font-family: 'Roboto Slab', serif;
+  color: rgb(255, 255, 240);
+  background-color: rgb(222, 99, 103);
+  border: 20px;
+  border-style: dashed;
+  border-color: rgb(134, 190, 120);
+  padding: 50px;
+}
+
+h1, #opening p, #img p {
+  text-align: center;
+}
+
+h1, #opening p, #img p, h2 {
+  margin: auto;
+}
+
+h1, h2 {
+  font-size: 3pc;
+}
+
+h2 + article {
+  display: flex;
+  flex-direction: row;
+}
+
+h2 {
+  margin-top: 0.25in;
+  margin-bottom: 0.25in;
+}
+
+h3 {
+  margin-top: 0in;
+}
+
+h3, ol, #comment button {
+  font-size: 1.5pc;
+}
+
+button {
+  color: rgb(2, 96, 2);
+  background-color: rgb(134, 190, 120);
+  box-shadow: 5px 10px #004313;
+  font-size: 16pt;
+  height: 5cm;
+  margin-left: 0.25in;
+}
+
+footer {
+  text-align: center;
+}
+
+#opening p {
+  font-size: 4ch;
+  margin: 150pt;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+#opening + section, #steps, #video, #comment {
+  display: flex;
+  background-color: rgb(189, 151, 173);
+  margin-top: 0.5in;
+  border-top: 20px dashed rgb(134, 190, 120);
+  border-bottom: 20px dashed rgb(134, 190, 120);
+}
+
+#opening + section, #video {
+  flex-direction: column;
+  margin-right: 3in;
+}
+
+#steps {
+  margin-left: 3in;
+  flex-direction: row;
+}
+
+img {
+  padding: 15px;
+  width: 70%;
+  border: 7px dashed palevioletred;
+  border-radius: 50px;
+  margin-left: 1in;
+}
+
+#ingre {
+  font-size: 2pc;
+  margin-right: 0.25in;
+}
+
+#ingre button {
+  width: 10cm;
+  height: 1cm;
+  margin-bottom: 0.25in;
+  margin-left: 0in;
+}
+
+#steps > section, #comment button {
+  margin: 0.25in;
+}
+
+#pic-steps {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#pic-steps img {
+  margin: 2px;
+  width: 16cm;
+}
+
+#steps + section {
+  display: flex;
+  flex-direction: column;
+}
+
+#pic-steps + p, #video p {
+  text-align: center;
+  font-size: 17pt;
+  margin-top: 0in;
+  margin-bottom: 0.25cm;
+}
+
+.current {
+  color: rgb(186, 44, 113);
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 2pc;
+}
+
+#video iframe {
+  width: 70%;
+  margin: 0.25in;
+  margin-bottom: 0in;
+  font-size: 16pt;
+}
+
+#video {
+  align-items: center;
+}
+
+#comment, #comment section section {
+  display: flex;
+  flex-direction: column;
+}
+
+#comment section section {
+  width: 3in;
+  margin: 0.25in;
+  text-align: center;
+  background-color: cornsilk;
+  color: #004313;
+  border-radius: 20%;
+  padding: 0.125in;
+}
+
+#comment button {
+  width: 5in;
+  height: 0.5in;
+}
+
+#comment section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#comment img {
+  width: 2in;
+  margin: auto;
+}
+
+.errorMess {
+  font-size: 17pt;
+  margin: 0.25in;
+}

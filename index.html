@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<!--
+  Cindy Fu
+  July 30th
+  Section AC
+
+  This is a index.html page that gives structure of the web page. This html
+  page includes the ingredients needed, steps to cook the dish, and comments
+  from other people
+-->
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Great Chinese Recipe</title>
+  </head>
+  <body>
+    <section id="opening">
+      <h1>Great Chinese Recipe</h1>
+      <p>
+        Real Chinese food can be hard to find! However, it can be easy to cook.
+        Try some recipes provided on this website by yourself!
+      </p>
+    </section>
+
+    <section>
+      <h2>Dish One: Sweet Sour Ribs</h2>
+      <article>
+        <section id="img">
+          <img src="img/sweetsourribs.png" alt="sweet sour ribs">
+          <p>
+            Source:
+            <a href="https://www.xiachufang.com/recipe/104085480/">Xia Chu Fang</a>
+          </p>
+        </section>
+
+        <section id="ingre">
+          <button id="green">Click if you like green onion!</button>
+          <h3>Ingredients:</h3>
+          <ul id="fir-lis">
+            <li>Pork Ribs: 500g</li>
+            <li>Salt: 3g</li>
+            <li>Cooking Wine: 15ml</li>
+            <li>Soy Sauce: 30ml</li>
+            <li>White Vinegar: 45ml</li>
+            <li>Sugar: 60g</li>
+            <li>Sliced Ginger</li>
+          </ul>
+          <h3>Optional Ingredients:</h3>
+          <ul id="sec-lis">
+            <li>Green Onion</li>
+          </ul>
+        </section>
+      </article>
+    </section>
+
+    <section id="steps">
+      <section>
+        <h3>Steps:</h3>
+        <ol>
+          <li class="current">Clean and wash pork ribs.</li>
+          <li>Add 100g vegetable oil and sliced ginger in a wok with high heat.</li>
+          <li>Put pork ribs into the work and stir fry until pork ribs becomes brown color.</li>
+          <li>
+            Add 15ml cooking wine, 30ml soy sauce, 45ml white vinegar and 60g
+            sugar and then stir fry.
+          </li>
+          <li>Add 200 c.c. water into the wok with medium heat about 20 minutes.</li>
+          <li>
+            After 20 mins, add 3g salt and to stir fry on high heat for few
+            minutes and it is ready to serve.
+          </li>
+        </ol>
+      </section>
+
+      <section>
+        <section id="pic-steps">
+          <img id="dyn-pic" src="img/clean.jpeg" alt="clean ribs">
+          <button id="next">Next Step!</button>
+        </section>
+        <p>
+          All pictures are founded in this
+          <a href="https://www.youtube.com/embed/yauKESA6daM">video</a>
+        </p>
+      </section>
+    </section>
+
+    <section id="video">
+      <iframe src="https://www.youtube.com/embed/yauKESA6daM" allowfullscreen></iframe>
+      <p>
+        This is a video in Chinese. Please turned on the subtitiles to watch a video
+        to cook sweet sour ribs if you like.
+      </p>
+    </section>
+
+    <section id="comment">
+      <button>Click Me to View One More Comment</button>
+      <section></section>
+    </section>
+
+    <footer>All user information is generated using
+      <a href="https://randomuser.me/">Random User Generator API</a>
+    </footer>
+  </body>
+</html>
